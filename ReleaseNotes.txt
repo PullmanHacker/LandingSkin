@@ -1,0 +1,14 @@
+﻿<h3>LandingSkin</h3>
+	MHGInsurance.com <br />
+	<a href="mailto:jeffm@mhginsurance.com">jeffm@mhginsurance.com</a><br />
+	<a href=http://www.mhginsurance.com/>http://www.mhginsurance.com/</a><br />
+<hr/>
+	<h3>About the LandingSkin</h3>
+
+	<h4>Version 00.00.01</h4><br />
+	Initial release of the theme
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>None, first release</li>
+	</ul>
+</div>

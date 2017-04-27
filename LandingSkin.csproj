@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D61A32C-0F21-453F-A981-BD8E5A3A5304}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MHG.Portals._default.Skins.LandingSkin</RootNamespace>
+    <AssemblyName>LandingSkin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRM.Repository_v2">
+      <HintPath>..\CRMRepository\bin\Release\CRM.Repository_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke">
+      <HintPath>..\..\..\..\bin\DotNetNuke.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Client">
+      <HintPath>..\..\..\..\bin\DotNetNuke.Web.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CRM\2011 SDK\Bin\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Xrm.Client">
+      <HintPath>..\..\CRM\2011 SDK\Bin\Microsoft.Xrm.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CRM\2011 SDK\Bin\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SkinBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Home.ascx.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ClientDependency.Core.dll" />
+    <Content Include="bin\CountryListBox.dll" />
+    <Content Include="bin\DotNetNuke.dll" />
+    <Content Include="bin\DotNetNuke.Instrumentation.dll" />
+    <Content Include="bin\DotNetNuke.Instrumentation.pdb" />
+    <Content Include="bin\DotNetNuke.Instrumentation.xml" />
+    <Content Include="bin\dotnetnuke.log4net.dll" />
+    <Content Include="bin\DotNetNuke.Services.Syndication.dll" />
+    <Content Include="bin\DotNetNuke.Web.Client.dll" />
+    <Content Include="bin\DotNetNuke.Web.Client.pdb" />
+    <Content Include="bin\DotNetNuke.WebControls.dll" />
+    <Content Include="bin\DotNetNuke.WebUtility.dll" />
+    <Content Include="bin\DotNetNuke.WebUtility.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\LandingSkin.dll" />
+    <Content Include="bin\LandingSkin.pdb" />
+    <Content Include="bin\Lucene.Net.Contrib.FastVectorHighlighter.dll" />
+    <Content Include="bin\Lucene.Net.dll" />
+    <Content Include="bin\Microsoft.AnalysisServices.AdomdClient.dll" />
+    <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\PetaPoco.dll" />
+    <Content Include="bin\SharpZipLib.dll" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.xml" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="Bootstrap-3.3.6\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Bootstrap-3.3.6\js\bootstrap.min.js" />
+    <Content Include="Bootstrap-3.3.6\js\respond.min.js" />
+    <Content Include="Bootstrap-3.3.6\less\bootstrap.css" />
+    <Content Include="Bootstrap-3.3.6\less\bootstrap.min.css" />
+    <Content Include="ShoreExcursion.css" />
+    <Content Include="Charterers.css" />
+    <Content Include="Containers\Blank.ascx" />
+    <Content Include="Containers\Main.ascx" />
+    <Content Include="Content\normalize.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\nexa_boldregular\Nexa_Free_Bold-webfont.eot" />
+    <Content Include="fonts\nexa_boldregular\Nexa_Free_Bold-webfont.svg" />
+    <Content Include="fonts\nexa_boldregular\Nexa_Free_Bold-webfont.ttf" />
+    <Content Include="fonts\nexa_boldregular\Nexa_Free_Bold-webfont.woff" />
+    <Content Include="fonts\nexa_boldregular\Nexa_Free_Bold-webfont.woff2" />
+    <Content Include="fonts\nexa_lightregular\Nexa_Free_Light-webfont.svg" />
+    <Content Include="FooterNav\menudef.xml" />
+    <Content Include="FooterNav\SimpleTokens.txt" />
+    <Content Include="Images\contact-menu.jpg" />
+    <Content Include="Images\icons.svg" />
+    <Content Include="Images\radio-checked.png" />
+    <Content Include="Images\radio.png" />
+    <Content Include="Images\services-menu.jpg" />
+    <Content Include="Images\sprite-desktop.png" />
+    <Content Include="Images\sprite-mobile.png" />
+    <Content Include="Images\Yacht_Charter_Liability_Ins_Hero.jpg" />
+    <Content Include="Images\Yacht_Charter_Liability_Ins_Hero_Darkened.jpg" />
+    <Content Include="Images\Yacht_Charter_Liability_Ins_Hero_Darkened_Cropped.jpg" />
+    <Content Include="Images\Yacht_Charter_Liability_Ins_Text_Image.jpg" />
+    <Content Include="img\ENTERTAINERTEXTWITHIMAGE.jpg" />
+    <Content Include="img\ENTERTAINER_HERO.jpg" />
+    <Content Include="img\JETCREW_HERO.jpg" />
+    <Content Include="img\JET_CREW_-_text_with_imagejpg.jpg" />
+    <Content Include="img\JET_CREW_HERO_2.jpg" />
+    <Content Include="img\logo-mhg.png" />
+    <Content Include="Internal.ascx" />
+    <Content Include="i\icon_message_active.png" />
+    <Content Include="i\icon_notification_active.png" />
+    <Content Include="Common.css" />
+    <Content Include="YachtCrew.css" />
+    <Content Include="JetCrew.css" />
+    <Content Include="js\app\app.js" />
+    <Content Include="Home.doctype.xml" />
+    <Content Include="img\error.png" />
+    <Content Include="img\error.svg" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\play-pause.png" />
+    <Content Include="img\play-pause.svg" />
+    <Content Include="img\video-play.png" />
+    <Content Include="img\video-play.svg" />
+    <Content Include="i\icon_message.png" />
+    <Content Include="i\icon_notification.png" />
+    <Content Include="js\bootstrap-image-gallery.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.blueimp-gallery.min.js" />
+    <Content Include="License.txt" />
+    <Content Include="Scripts\doubletaptogo.min.js" />
+    <Content Include="Scripts\jquery.hoverIntent.minified.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modernizr-1.7.min.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\svg4everybody.js" />
+    <Content Include="skin.css" />
+    <Content Include="ReleaseNotes.txt" />
+    <Content Include="Home.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LandingSkin.dnn" />
+    <Content Include="Documentation\Documentation.css" />
+    <Content Include="Documentation\Documentation.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BuildScripts\SkinPackage.targets" />
+    <Content Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_LocalResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="skin.min.css" />
+    <Content Include="web.config" />
+    <Content Include="Bootstrap-3.3.6\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Bootstrap-3.3.6\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Bootstrap-3.3.6\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Bootstrap-3.3.6\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Bootstrap-3.3.6\less\alerts.less" />
+    <Content Include="Bootstrap-3.3.6\less\badges.less" />
+    <Content Include="Bootstrap-3.3.6\less\bootstrap.css.map" />
+    <Content Include="Bootstrap-3.3.6\less\bootstrap.less" />
+    <Content Include="Bootstrap-3.3.6\less\breadcrumbs.less" />
+    <Content Include="Bootstrap-3.3.6\less\button-groups.less" />
+    <Content Include="Bootstrap-3.3.6\less\buttons.less" />
+    <Content Include="Bootstrap-3.3.6\less\carousel.less" />
+    <Content Include="Bootstrap-3.3.6\less\close.less" />
+    <Content Include="Bootstrap-3.3.6\less\code.less" />
+    <Content Include="Bootstrap-3.3.6\less\component-animations.less" />
+    <Content Include="Bootstrap-3.3.6\less\dropdowns.less" />
+    <Content Include="Bootstrap-3.3.6\less\forms.less" />
+    <Content Include="Bootstrap-3.3.6\less\glyphicons.less" />
+    <Content Include="Bootstrap-3.3.6\less\grid.less" />
+    <Content Include="Bootstrap-3.3.6\less\input-groups.less" />
+    <Content Include="Bootstrap-3.3.6\less\jumbotron.less" />
+    <Content Include="Bootstrap-3.3.6\less\labels.less" />
+    <Content Include="Bootstrap-3.3.6\less\list-group.less" />
+    <Content Include="Bootstrap-3.3.6\less\media.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\alerts.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\background-variant.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\border-radius.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\buttons.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\center-block.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\clearfix.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\forms.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\gradients.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\grid-framework.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\grid.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\hide-text.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\image.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\labels.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\list-group.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\nav-divider.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\nav-vertical-align.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\opacity.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\pagination.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\panels.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\progress-bar.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\reset-filter.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\reset-text.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\resize.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\responsive-visibility.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\size.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\tab-focus.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\table-row.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\text-emphasis.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\text-overflow.less" />
+    <Content Include="Bootstrap-3.3.6\less\mixins\vendor-prefixes.less" />
+    <Content Include="Bootstrap-3.3.6\less\modals.less" />
+    <Content Include="Bootstrap-3.3.6\less\navbar.less" />
+    <Content Include="Bootstrap-3.3.6\less\navs.less" />
+    <Content Include="Bootstrap-3.3.6\less\normalize.less" />
+    <Content Include="Bootstrap-3.3.6\less\pager.less" />
+    <Content Include="Bootstrap-3.3.6\less\pagination.less" />
+    <Content Include="Bootstrap-3.3.6\less\panels.less" />
+    <Content Include="Bootstrap-3.3.6\less\popovers.less" />
+    <Content Include="Bootstrap-3.3.6\less\print.less" />
+    <Content Include="Bootstrap-3.3.6\less\progress-bars.less" />
+    <Content Include="Bootstrap-3.3.6\less\responsive-embed.less" />
+    <Content Include="Bootstrap-3.3.6\less\responsive-utilities.less" />
+    <Content Include="Bootstrap-3.3.6\less\scaffolding.less" />
+    <Content Include="Bootstrap-3.3.6\less\tables.less" />
+    <Content Include="Bootstrap-3.3.6\less\theme.less" />
+    <Content Include="Bootstrap-3.3.6\less\thumbnails.less" />
+    <Content Include="Bootstrap-3.3.6\less\tooltip.less" />
+    <Content Include="Bootstrap-3.3.6\less\type.less" />
+    <Content Include="Bootstrap-3.3.6\less\utilities.less" />
+    <Content Include="Bootstrap-3.3.6\less\variables.less" />
+    <Content Include="Bootstrap-3.3.6\less\wells.less" />
+    <Content Include="fonts\nexa_lightregular\Nexa_Free_Light-webfont.eot" />
+    <Content Include="fonts\nexa_lightregular\Nexa_Free_Light-webfont.ttf" />
+    <Content Include="fonts\nexa_lightregular\Nexa_Free_Light-webfont.woff" />
+    <Content Include="fonts\nexa_lightregular\Nexa_Free_Light-webfont.woff2" />
+    <Content Include="Images\Yacht_Charter_Liability_Ins_Hero_Darkened_Cropped.psd" />
+    <Content Include="install\LandingSkin_00.00.01_Install.zip" />
+    <Content Include="install\LandingSkin_00.00.01_Source.zip" />
+    <Content Include="Styles\Base\_base.less" />
+    <Content Include="Styles\Base\_index.less" />
+    <Content Include="Styles\Base\_mixins.less" />
+    <Content Include="Styles\Base\_variables.less" />
+    <Content Include="Styles\Components\bootstrap-select.less" />
+    <Content Include="Styles\Components\variables.less" />
+    <Content Include="Styles\Components\_buttons.less" />
+    <Content Include="Styles\Components\_icons.less" />
+    <Content Include="Styles\Components\_index.less" />
+    <Content Include="Styles\Components\_input.less" />
+    <Content Include="Styles\Components\_select.less" />
+    <Content Include="Styles\Components\_tabs.less" />
+    <Content Include="Styles\Components\_typography.less" />
+    <Content Include="Styles\Layout\_banner.less" />
+    <Content Include="Styles\Layout\_container.less" />
+    <Content Include="Styles\Layout\_footer.less" />
+    <Content Include="Styles\Layout\_header.less" />
+    <Content Include="Styles\Layout\_index.less" />
+    <Content Include="Styles\Layout\_pane.less" />
+    <Content Include="Styles\Layout\_styleguide.less" />
+    <Content Include="skin.css.map" />
+    <Content Include="skin.less" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>55931</DevelopmentServerPort>
+          <DevelopmentServerVPath>
+          </DevelopmentServerVPath>
+          <IISUrl>http://localhost:55931/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <Extension>zip</Extension>
+    <DNNFileName>LandingSkin</DNNFileName>
+    <PackageName>LandingSkin</PackageName>
+    <MSBuildCommunityTasksPath>$(SolutionDir)\BuildScripts</MSBuildCommunityTasksPath>
+  </PropertyGroup>
+  <Import Project="BuildScripts\SkinPackage.Targets" />
+  <Target Name="AfterBuild" DependsOnTargets="MoveContainer" />
+  <Target Name="AfterBuild" DependsOnTargets="PackageSkin">
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>

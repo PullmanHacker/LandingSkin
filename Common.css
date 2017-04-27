@@ -1,0 +1,29 @@
+﻿@font-face {
+    font-family: nexa_boldregular;
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.eot');
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.woff') format('woff'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: nexa_lightregular;
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.eot');
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.woff2') format('woff2'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.woff') format('woff'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.ttf') format('truetype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+span#isleOfManSpan {
+    display: block;
+}
+div.txtNoImage {
+}
+div#dnn_LeftPane {
+}
+
+div#dnn_RightPane {
+}
+div.imageAligner {
+
+}

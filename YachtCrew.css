@@ -1,0 +1,6516 @@
+﻿@font-face {
+    font-family: nexa_boldregular;
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.eot');
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.woff') format('woff'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_boldregular/Nexa_Free_Bold-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: nexa_lightregular;
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.eot');
+    src: url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.woff2') format('woff2'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.woff') format('woff'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.ttf') format('truetype'), url('https://www.mhgportal.com/portals/_default/skins/mhgweb/Fonts/nexa_lightregular/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+div.txtNoImage {
+}
+
+div#dnn_LeftPane {
+}
+
+div#dnn_RightPane {
+}
+
+div.imageAligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: Left;
+}
+
+span#isleOfManSpan {
+    display: block;
+}
+.bg-morning-blue {
+    background: #90c4dc;
+}
+/*EXTRA SMALL DEVICES - PHONES*/
+@media only screen and (min-width : 320px) and (max-width : 349px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 225px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 11pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 25px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 11pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 11px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 10px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 10px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 14px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 12px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 350px) and (max-width : 399px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 247px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 14pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 15px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 10pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 11px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 16px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 13px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 400px) and (max-width : 449px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 247px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 11.7pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 11pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 11px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 12px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 13px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 449px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 267px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 14pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 50px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 10pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 11px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 16px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 450px) and (max-width : 499px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 281px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 50px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 11pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 16px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 449px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 290px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 60px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 11pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    main.page-body {
+        display: none;
+    }
+
+    div.circle {
+        display: block;
+    }
+
+    div.primaryCircleContent {
+        display: inline-block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+    h2.coverage {
+        display: block;
+        color: #000000;
+        font-size: 15px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 450px) and (max-width : 499px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 292px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 70px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 12pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 12px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 12px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 14px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 549px) {
+    header.page-header {
+        height: 50px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 335px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 90px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 13pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 13px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 16px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width : 550px) and (max-width : 599px) {
+    header.page-header {
+        height: 55px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 350px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 100px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 13pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 13px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 110px !important;
+        height: 110px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 16px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width : 600px) and (max-width : 649px) {
+    header.page-header {
+        height: 55px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 400px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 125px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 13pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 13px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 19px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+   #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width : 650px) and (max-width : 699px) {
+    header.page-header {
+        height: 55px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 425px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 16pt !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 140px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 13pt !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 13px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 160px !important;
+        height: 160px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 19px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 19px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width : 700px) and (max-width : 749px) {
+    header.page-header {
+        height: 55px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 480px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 24px !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 165px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 20px !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 16px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 170px !important;
+        height: 170px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 20px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width : 750px) and (max-width : 767px) {
+    header.page-header {
+        height: 55px !important;
+        margin: 0;
+        border: none;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 30px;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 500px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 24px !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 165px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 20px !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 16px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 13px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 170px !important;
+        height: 170px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-size: 20px !important;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 25px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+        max-height: 225px;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 25px 10px 0 10px !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 16px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 16px !important;
+    }
+}
+/*SMALL DEVICES - TABLETS*/
+@media only screen and (min-width : 768px) and (max-width : 799px) {
+    header.page-header {
+        height: 86px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 112px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 525px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 36px !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 165px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 24px !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_lightregular;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 18px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 18px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 849px) {
+    header.page-header {
+        height: 86px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 150px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 530px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 36px !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 165px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 24px !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 13px !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        padding: 0 0 15px 0;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_lightregular;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 18px;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 18px !important;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 18px !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width : 850px) and (max-width : 899px) {
+    header.page-header {
+        height: 86px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 150px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 300px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 14px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width : 900px) and (max-width : 949px) {
+    header.page-header {
+        height: 86px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 150px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 325px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 14px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width : 950px) and (max-width : 991px) {
+    header.page-header {
+        height: 86px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 150px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 355px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 999px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 355px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 0 !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width : 1000px) and (max-width : 1049px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 360px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 15px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width : 1050px) and (max-width : 1099px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 395px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 55px 0 15px 15px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1149px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 415px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 80px 0 15px 20px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 190px !important;
+        height: 190px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width : 1150px) and (max-width : 1199px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 435px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 85px 0 15px 20px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 215px !important;
+        height: 215px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 19px 34px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+/*LARGE DEICES - DESKTOPS*/
+@media only screen and (min-width : 1200px) and (max-width : 1249px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 450px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 85px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 235px !important;
+        height: 235px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 19px 34px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+@media only screen and (min-width : 1250px) and (max-width : 1366px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 490px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 103px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 240px !important;
+        height: 240px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        font-size: 18px !important;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 19px 34px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+
+@media only screen and (min-width : 1367px) and (max-width : 1440px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 510px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 125px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 250px !important;
+        height: 250px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (min-width : 1441px) and (max-width : 1549px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 560px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 160px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 250px !important;
+        height: 250px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (min-width : 1550px) and (max-width : 1649px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 600px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 160px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 265px !important;
+        height: 265px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (min-width : 1650px) and (max-width : 1749px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 625px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 175px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 265px !important;
+        height: 265px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (min-width : 1750px) and (max-width : 1849px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 670px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 200px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 265px !important;
+        height: 265px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (min-width : 1850px) {
+    header.page-header {
+        height: 102px !important;
+        margin: 0;
+        border: none;
+    }
+
+    .navbar > .container .navbar-brand {
+        height: 70px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 212px;
+    }
+
+    #TopContent.row.overlay {
+        position: absolute !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    div.jumbotron.test {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 695px !important;
+    }
+
+    div.bannerContainer {
+        height: 100%;
+        width: 100%;
+    }
+
+    img#bannerImage {
+        padding: 0px;
+        max-width: 100%;
+        z-index: 20;
+    }
+
+    h1.heroText {
+        text-align: center;
+        font-family: nexa_boldregular;
+        font-size: 3rem !important;
+        font-weight: normal;
+        text-align: center;
+        color: white !important;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 200px 0 15px 25px !important;
+    }
+
+    p.heroSubText {
+        font-family: nexa_lightregular;
+        font-size: 1.5rem !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-bottom: 1.5rem !important;
+        text-transform: capitalize !important;
+        text-align: center !important;
+        font-style: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    a.btn.btn-tertiary.btn-lg {
+        font-family: nexa_boldregular;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid #ffffff !important;
+        box-shadow: none;
+        color: #ffffff !important;
+        opacity: 0.8;
+        white-space: nowrap;
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+        line-height: 1.42857143;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+        a.btn.btn-tertiary.btn-lg:active, a.btn.btn-tertiary.btn-lg:hover, a.btn.btn-tertiary.btn-lg:focus, a.btn.btn-tertiary.btn-lg:visited {
+            background: #fff !important;
+            border: 2px solid #ffffff !important;
+            box-shadow: none;
+            color: #000000 !important;
+            opacity: 1 !important;
+            font-size: 18px !important;
+        }
+
+    #dnn_CenterPane {
+        display: none;
+    }
+
+    div.jumbotron.midContent {
+        margin: 0;
+        padding: 0 5px 0 5px;
+        background-color: white;
+        display: block;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 265px !important;
+        height: 265px !important;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0.5em;
+        background-color: #90c4dc;
+    }
+
+    div.primaryCircleContent {
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    div.secondaryCircleContent {
+        display: none;
+    }
+
+
+    h2.coverage {
+        display: block;
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    h2.sectionHeader {
+        font-family: nexa_boldregular;
+        font-size: 2.25rem;
+        font-weight: normal;
+        line-height: 2.25rem;
+        padding: 0;
+    }
+
+    p.sectionParagraph {
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+        margin-bottom: 0.875rem;
+    }
+
+    #BottomContent {
+        padding: 0px;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 100%;
+        background-color: #90c4dc !important;
+        text-align: center;
+    }
+
+    div.jumbotron.CallToAction {
+        margin: 0px;
+        padding: 10px 0 20px 0 !important;
+        text-align: center;
+        background-color: transparent !important;
+        color: white;
+    }
+
+    h3.title-h3 {
+        color: white;
+        font-family: nexa_boldregular;
+        font-size: 1.875rem;
+        font-weight: normal;
+    }
+
+    .closeText {
+        color: white;
+        font-family: nexa_lightregular;
+        font-size: 1rem !important;
+    }
+
+    button.btn.btn-primary.btn-lg {
+        padding: 18px 36px 18px 36px;
+        font-size: 18px !important;
+    }
+
+    button.btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
+        background: #ee3e33;
+        border: 2px solid #ee3e33;
+        box-shadow: none;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+}
